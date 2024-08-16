@@ -1,0 +1,350 @@
+/* Fonts */
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  
+  /* General */
+
+  *{margin: 0; padding: 0;}
+
+  a{text-decoration: none;}
+
+  :root{
+    --clr1: #0f7ff4
+  }
+
+  /* Head */
+
+  .head{width: 100%; height: 700px;position: relative; background-image: url(https://img.freepik.com/free-photo/doctor-standing-hospital-room-with-patient-bed_9975-23123.jpg?t=st=1722966153~exp=1722969753~hmac=9bc6c239bfc282ae618f01f4659d08b9fb8329e9f354a49b11130bdcf452febc&w=1380); background-size: 100%; background-position: 0px -150px;  background-attachment: fixed; background-repeat: no-repeat;}
+
+  .head_overlay{height: inherit; width: inherit; background-image: linear-gradient(to right, blue 0%, cyan 60%); opacity: 0.4;}
+
+  .head_wrap{width: 1000px; height: 100px; margin: 0 auto; position: absolute; top: 0px;left: 50%; transform: translateX(-50%);}
+
+  .logo{color: white; font-size: 30px; height: 30px; padding: 30px 0px 40px 0px; width: 200px; float: left;}
+
+  .search{height: 70px; width: 260px;float: right;padding-top: 25px;}
+
+  .search input{height: 30px; width: 200px; border: none; border-radius: 5px; padding: 0px 10px; outline: none;}
+
+  .menu_wrap{height: 40px; width: 450px; float: right; padding: 30px;}
+
+  .menu_wrap a{color: white; font-size: 16px; padding: 0px 15px ;}
+
+  .menu_wrap a:hover{text-decoration: underline; cursor: pointer;}
+
+  .head_content{width: 350px; height: 400px; position: absolute; top: 250px;}
+
+  .head_content div:nth-child(1){color: white; font-size: 20px; width: 500px;position: absolute; top: 20px;}
+
+  .head_content div:nth-child(2){color: white; font-size: 40px; width: 500px; position: absolute; top: 60px;}
+
+  .head_content a{background-color: white; display: inline-block; padding: 10px 20px; position: absolute; top: 250px; color: rgb(40, 40, 40); font-size: 20px; border-radius: 5px; border: 1px solid transparent;}
+
+  .head_content a:hover{background-color: transparent; border: 1px solid white; color: white;}
+
+  /* Banner */
+
+  .banner{width: 1000px; margin: 0 auto; height: 500px; padding: 100px 0px; }
+
+  .banner_left{width: 450px; height: 450px; float: left; border-radius: 10px;position: relative; background-image: url(https://img.freepik.com/free-photo/young-female-patient-looking-mirror-check-teeth-matching-before-dental-procedure_23-2148985749.jpg?t=st=1722970703~exp=1722974303~hmac=3b4a2e66cf3b03ad931d156e4fa5f19f4f5291a9be6bb4c8b663a655d100c0ee&w=900); background-size: 100%;}
+
+  .appointment{height: 150px; width: 300px;border-radius: 10px;text-align: center; background-color: white; position: absolute; right: -60px; bottom: -100px; padding: 25px;}
+
+  .appointment_shadow{height: 150px; width: 300px;border-radius: 10px; position: absolute; right: -60px; bottom: -100px; padding: 25px; box-shadow: 0px 0px 15px -5px; z-index: -1;}
+
+  .appointment div:nth-child(2){margin-top: 10px; color: rgb(93, 93, 93);}
+
+  .appointment div:nth-child(3){margin-top: 20px; color: rgb(93, 93, 93); font-size: 20px;}
+
+  .appointment div span{font-size: 20px; color: var(--clr1);}
+
+  .banner_right{width: 450px; height: 350px; float: right; padding: 50px 0px;}
+
+  .banner_right div:nth-child(1){font-size: 30px;}
+
+  .banner_right div:nth-child(2){font-size: 14px; color: black; margin-top: 20px;}
+
+  .banner_right div:nth-child(3){font-size: 14px; color: rgb(93, 93, 93); margin-top: 20px;}
+
+  .banner_right div:nth-child(4){font-size: 14px; color: rgb(93, 93, 93); margin-top: 20px;}
+
+  /* Services */
+
+  .services1{width: 1000px; height: 700px; margin: 0 auto; padding: 50px 0px;}
+
+  .services1 div:nth-child(1){font-size: 40px; color: black; text-align: center; position: relative;}
+
+  .service1_cards{width: 1000px; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;} 
+
+  .service1_card{width: 280px; height: 200px; background-color: white; border-radius: 10px; margin: 20px 0px; box-shadow: 0px 0px 12px -7px; padding: 20px; text-align: center;}
+
+  .service1_card div:nth-child(1){font-size: 80px; color: var(--clr1); }
+
+  .service1_card div:nth-child(2){font-size: 20px; color: black; margin-top: 20px;}
+
+  .service1_card div:nth-child(3){font-size: 14px; color: rgb(93, 93, 93); margin-top: 20px;}
+
+  .services1 a{margin: 0 auto; display: inline-block; background-color:var(--clr1); padding: 20px 30px; position: absolute; left: 50%; transform: translateX(-50%); margin-top: 20px; border-radius: 10px; color: white; border: 1px solid white;}
+
+  .services1 a:hover{background-color: white; border: 1px solid var(--clr1); color: var(--clr1);}
+
+  .services2{width: 100%; height: 580px; background-color: #fafafb}
+  
+  .services2_wrap{width: 1000px; height: auto; margin: 0px auto;}
+
+  .services2_wrap div:first-child.poppins-light{font-size: 40px; color: black; text-align: center; padding: 50px 0px;}
+
+  .serives2_cards{width: 1000px; height: auto; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
+
+  .services2_card{height: 320px; width: 230px;}
+
+  .service_picture{height: 180px; width: inherit;}
+
+  .service_content{height: 120px; width: calc(inherit-20px); padding: 10px; background-color: white; border-radius: 0px 0px 10px 10px;}
+
+  .service_picture{background-size: 100%; background-position: center; background-repeat: no-repeat; border-radius: 10px 10px 0px 0px;}
+
+  .serives2_cards .services2_card:nth-child(1) .service_picture{background-image: url(https://img.freepik.com/free-photo/dental-hygiene-concept-with-tooth_23-2150273617.jpg?ga=GA1.1.188061379.1721247328&semt=ais_hybrid);}
+
+  .serives2_cards .services2_card:nth-child(2) .service_picture{background-image: url(https://img.freepik.com/free-photo/dental-hygiene-concept-with-tooth_23-2150273606.jpg?ga=GA1.1.188061379.1721247328&semt=ais_hybrid);}
+
+  .serives2_cards .services2_card:nth-child(3) .service_picture{background-image: url(https://img.freepik.com/free-photo/dental-hygiene-concept-with-tooth_23-2150273607.jpg?ga=GA1.1.188061379.1721247328&semt=ais_hybrid);}
+
+  .serives2_cards .services2_card:nth-child(4) .service_picture{background-image: url(https://img.freepik.com/free-photo/dental-hygiene-concept-with-tooth_23-2150273609.jpg?ga=GA1.1.188061379.1721247328&semt=ais_hybrid);}
+
+  .service_content div:first-child{font-size: 18px; color: black;}
+
+  .service_content div:nth-child(2){font-size: 14px; color: rgb(93, 93, 93); margin-bottom: 15px;}
+
+  .service_content a{color: var(--clr1);}
+
+  /* Banner2 */
+
+  .banner2{width: 100%; height: 900px; position: relative; background-image: url(https://img.freepik.com/free-photo/hospital-equipment-surgical-procedure_23-2148962526.jpg?t=st=1722979359~exp=1722982959~hmac=fceef259b11459bd08d62c7747061c4481be78ffc0e64537602ab6dbb35de305&w=1380); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed;}
+
+  .banner2_overlay{height: inherit; width: inherit; background-image: linear-gradient(to right, blue 0%, cyan 60%); opacity: 0.4;}
+
+  .banner2_wrap{width: 1000px; height: 700px; margin: 0 auto; position: absolute; top: 100px;left: 50%; transform: translateX(-50%);}
+  
+  .banner2_left{width: 600px; height: 700px; float: left;}
+
+  .banner2_left div:nth-child(1){font-size: 35px; color: black; padding: 50px 0px; color: white;}
+
+  .banner2_left div:nth-child(2){font-size: 20px; color: white; padding: 20px 0px;}
+
+  .banner2_left a{background-color: white; display: inline-block; padding: 10px 20px; color: rgb(40, 40, 40); font-size: 20px; border-radius: 5px; border: 1px solid transparent;border: 1px solid transparent; margin-top: 20px;} 
+
+  .banner2_left a:hover{background-color: transparent; border: 1px solid white; color: white;}
+
+  .banner2_right{width: 300px; height: 700px; float: right; display: flex; flex-direction: column; justify-content: space-between;}
+  
+  .banner_digits{width: 300px; height: 200px;}
+
+  .banner_number{font-size: 80px; color: white; text-align: center; padding: 10px 0px;}
+
+  .number_name{font-size: 20px; color: white; text-align: center;}
+
+  /* Doctors */
+
+  .doctors{width: 1000px; height: auto; margin: 0 auto;}
+
+  .doctors_head{font-size: 50px; color: black; text-align: center; padding: 70px 0px 20px 0px;}
+
+  .doctors_card_wrap{width: 1000px; height: auto; display: flex; justify-content: space-between; margin: 0 auto; padding: 50px 0px;}
+
+  .doctor_card{width: 200px; height: auto; background-color: white; border-radius: 10px; box-shadow: 0px 0px 30px -10px; padding: 10px; text-align: center;}
+
+  .doctor_pic{height: 200px; width: 200px; background-size: 100%;}
+
+  .doctor_card:nth-child(1) .doctor_pic{background-image: url(https://www.imc-healthcare.com/wp-content/uploads/2022/08/international-medical-clinic-headshots-square-Dr-Chris-Eldridge.jpg)}
+
+  .doctor_card:nth-child(2) .doctor_pic{background-image: url(https://thumbs.dreamstime.com/b/portrait-happy-arabic-doctor-male-blue-background-square-smiling-to-camera-wearing-white-uniform-posing-headshot-cheerful-233544543.jpg)}
+
+  .doctor_card:nth-child(3) .doctor_pic{background-image: url(https://thumbs.dreamstime.com/b/doctor-square-18545494.jpg)}
+
+  .doctor_card:nth-child(4) .doctor_pic{background-image: url(https://starhospitalsproduction.s3.amazonaws.com/DHcuZfxJBy3oVz47QW0WsyuaBRiivfWoETc69IUD.webp)}
+
+  .doctor_name{font-size: 20px; color: black; margin-top: 10px;}
+
+  .doctor_speciality{font-size: 14px; color: rgb(93, 93, 93); margin-top: 10px;}
+
+  /* Blog */
+
+  .blog{width: 100%; height: auto; margin: 0 auto; padding: 50px 0px; background-color: #fafafb;}
+
+  .blog_wrap{width: 1000px; height: auto; margin: 0 auto; padding: 50px 0px; display: flex; justify-content: space-between; flex-wrap: wrap;}
+
+  .blog_card{width: 490px; height: 300px; display: flex; justify-content: space-between; }
+
+  .blog_pic{height: 300px; width: 220px; background-size: 100%; float: left;}
+
+  .blog_content{height: 300px; width: 270px;background-color: white; float: left;}
+  
+  .blog_card:nth-child(1) .blog_pic{background-image: url(https://www.shutterstock.com/image-photo/female-doctor-examining-woman-teeth-600nw-2137422653.jpg);}
+
+  .blog_card:nth-child(2) .blog_pic{background-image: url(https://www.shutterstock.com/image-photo/woman-having-dental-procedure-stomatology-600nw-2137422659.jpg);}
+
+  .blog_head{font-size: 50px; color: black; padding: 0px 20px; text-align: center;}
+
+  .blog_content div:first-child{font-size: 20px; color: black; padding: 20px 20px 0px 20px;}
+
+  .blog_content div:nth-child(2){font-size: 14px; color: rgb(93, 93, 93); margin-top: 20px;padding: 20px ;}
+
+  .blog_content div:nth-child(3) div:nth-child(1){font-size: 14px; color: rgb(93, 93, 93); margin-top: 20px; width: 100px; float: left;}
+
+  .blog_content div:nth-child(3) div:nth-child(2) a span{color: var(--clr1); margin-top: 20px; float: right; font-size: 20px; margin-right: 30px;}
+
+  /* Footer 1 */
+
+  .footer_1{width: 100%; height: 120px; color: white; text-align: center; padding: 50px 0px;background-image: linear-gradient(to right, blue 0%, cyan 60%); opacity: 0.6;}
+
+  .footer_1_wrap{width: 1000px; height: 120px; margin: 0 auto;}
+
+  .footer_1_left{width: 300px; height: 120px; float: left; text-align: left;}
+
+  .footer_1_left div:first-child{font-size: 40px; color: white; margin-top: 10px;} 
+
+  .footer_1_right{width: 600px; height: 120px; float: right; text-align: right;}
+
+  .footer_1_right div{font-size: 25px; color: white; margin-top: 10px; margin: 38px 0px;}
+
+  .footer_1_right div a{color: rgb(93, 93, 93); padding: 10px 15px; background-color: white; border: 1px solid white; margin-left: 20px; border-radius: 10px;}
+
+  .footer_1_right div a:hover{background-color: transparent;  color: white;}
+
+  /* Footer 2 */
+
+  .footer_2{width: 100%; height: auto; background-color: #0d1f31; padding: 50px 0px;}
+
+  .footer2_wrap{width: 1000px; height: auto; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap;} 
+
+  .footer2_wrap div div:first-child{font-size: 20px; color: white; margin-bottom: 20px;}
+
+  .contact{width: 400px;}
+
+  .contact_info{font-size: 16px; color:rgb(93, 93, 93); margin-bottom: 20px; text-underline-offset: 8px; width: 400px;}
+
+  .about{width: 150px;}
+
+  .about a{font-size: 16px; color:rgb(93, 93, 93); padding-bottom: 10px;margin-bottom: 10px; display: block; border-bottom: 1px solid rgba(93, 93, 93, 0.464);}
+
+  .about a:last-child{border-bottom: none;}
+
+  .explore{width: 200px;}
+
+  .explore a{font-size: 16px; color:rgb(93, 93, 93); padding-bottom: 10px;margin-bottom: 10px; display: block; border-bottom: 1px solid rgba(93, 93, 93, 0.464);}
+
+  .explore a:last-child{border-bottom: none;}
+
+  .dentition{width: 150px;}
+
+  .dentition a{font-size: 16px; color:rgb(93, 93, 93); padding-bottom: 10px;margin-bottom: 10px; display: block; border-bottom: 1px solid rgba(93, 93, 93, 0.464);}
+
+  .dentition a:last-child{border-bottom: none;}
