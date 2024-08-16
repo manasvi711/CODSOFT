@@ -1,0 +1,102 @@
+*{margin: 0px; padding: 0px; }
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  .mont {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+
+.header_wrap{ margin: 0 auto;width: 1000px; height: 100px; text-align: center; line-height: 100px; font-size: 30px; }
+
+.name{font-size: 50px; color: rgb(48, 48, 48); float: left; width: 50px; font-family: Whisper; font-weight: bold; } 
+
+.menu_wrap{float: right;}
+
+.menu_wrap a{color: rgb(48, 48, 48); text-decoration: none; font-size: 20px; margin-right: 10px; font-family: Montserrat; font-weight: 600;}
+
+.menu_wrap a:hover{text-decoration: underline;}
+
+.banner{width: 1000px; height: 450px; margin: 0 auto; margin-top: 10px; padding: 100px 0px;}
+
+.banner_left{float: left; height: 450px; width: 550px;}    
+
+.banner_right{float: right; height: 300px;border-radius: 50%; width: 300px;background-repeat: no-repeat; background-image: url(https://media.licdn.com/dms/image/v2/D5603AQGq_NPC4bdR2w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721056305940?e=1729123200&v=beta&t=QypG4BS803MhpQXG100NoCSNcwD_mplOqLgNULqkWtw); background-size: 100%; background-position: center;}
+
+.intro{font-size: 50px; font-family: Montserrat;}
+
+.banner_content{font-size: 20px; font-family: Montserrat; color: rgb(105, 105, 105); margin-top: 20px; letter-spacing: 2px;}
+
+.social_media{margin: 40px 0px; }
+
+.banner_buttons a{text-decoration: none; font-family: Montserrat; font-size: 20px; display: inline-block; padding: 10px 20px; background-color: rgb(165, 69, 255); color: white; border-radius: 10px; margin-right: 30px; border: 2px solid white;}
+
+.banner_buttons a:hover{background-color: white; color: rgb(165, 69, 255); border: 2px solid  rgb(165, 69, 255);}
+
+.about{width: 1000px; height: 350px; margin: 0 auto;}
+
+.about_heading{font-size: 50px; color: rgb(48, 48, 48); float: left; font-family: Montserrat; margin-bottom: 20px; width: 100%;}
+
+.about_content{color: rgb(48, 48, 48); text-decoration: none;margin-bottom: 20px; font-size: 20px; margin-right: 10px; font-family: Montserrat; letter-spacing: 2px;}
+
+.about_content ul li{padding: 0px; margin: 0px; display: inline-block;}
+
+.about_content ul li img{height: 60px; padding: 50px 50px;}
+
+.skills{width: 400px; padding-right: 100px; float: left;}
+
+.skills_hobbies{width: 1000px; margin: 0 auto; padding: 50px 0px; height: 400px;}
+
+.skill_head{font-size: 50px; color: rgb(48, 48, 48); float: left; font-family: Montserrat; margin-bottom: 20px; width: 100%;}
+
+.skills ul li{font-size: 20px; font-family: Montserrat; color: rgb(105, 105, 105); margin-top: 20px; letter-spacing: 2px; padding: 0px; margin: 0px; list-style: none; margin-bottom: 20px;}
+
+.skills li progress{margin-top: 20px; height: 30px; width: 400px; border-radius: 15px; margin: 10px 0;}
+
+.skills li progress::-webkit-progress-bar {
+  border-radius: 15px;
+}
+
+.skills li progress::-webkit-progress-value {
+  background-color: rgb(165, 69, 255)!important;
+  border-radius: 15px;
+}
+
+.hobbies{width: 300px; padding: 0 100px; float: right;}
+
+.hobbies ul li{font-size: 20px; font-family: Montserrat; color: rgb(105, 105, 105); margin-top: 20px; letter-spacing: 2px; padding: 5px 0px; margin: 0px; list-style: none; margin-bottom: 20px;}
+
+.hobby_head{font-size: 50px; color: rgb(48, 48, 48); float: left; font-family: Montserrat; margin-bottom: 30px; width: 100%;}
+
+
+.contact{width: 1000px; margin: 0 auto; padding: 100px 0px; height: 500px;}
+
+.contact_left{font-size: 20px; font-family: Montserrat; color: rgb(105, 105, 105); margin-top: 20px; float: left;letter-spacing: 2px; padding: 0px; margin: 0px; list-style: none; margin-bottom: 20px;}
+
+.contact_head{font-size: 50px; color: rgb(48, 48, 48); float: left; font-family: Montserrat; margin-bottom: 30px; width: 100%;  }
+
+.contact_left div{width: 170px; padding: 20px 0px;} 
+
+.contact_left a{text-decoration: none; color: rgb(105, 105, 105); font-size: 20px; font-family: Montserrat; letter-spacing: 2px;}
+
+.contact_right{float: left;}
+
+.contact_right div{width: 350px; padding: 20px 0px;} 
+
+.contact_right a{text-decoration: none; color: rgb(105, 105, 105); font-size: 20px; font-family: Montserrat; letter-spacing: 2px;}
+
+.project{width: 1000px; margin: 0 auto; padding: 100px 0px; height: 1220px; padding: 100px 0px;}
+
+.project_head{font-size: 50px; color: rgb(48, 48, 48); float: left; font-family: Montserrat; margin-bottom: 30px; width: 100%;}
+
+.project_name{font-size: 30px; color: rgb(48, 48, 48); float: left; font-family: Montserrat; margin-bottom: 30px; width: 100%;}
+
+.proj_about{font-size: 20px; font-family: Montserrat; color: rgb(105, 105, 105); float: right;margin-top: 20px; letter-spacing: 2px; padding: 0px; margin: 0px; margin-bottom: 20px; }
+
+.proj_image img{width: 500px; margin : 20px 20px 20px 0px; float: left; background-image: url(aurdino.png);}    
